@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介 - 竹畑妃奈乃</title>
+</head>
+<body>
+    <h1>自己紹介</h1>
+    <h2>プロフィール</h2>
+    <p>名前: 竹畑妃奈乃</p>
+    <p>年齢: 25歳</p>
+    <p>出身地: 三重県</p>
+    <p>趣味: 読書、寺社仏閣巡り</p>
+    <h2>好きなもの</h2>
+    <ul>
+        <li>トマト</li>
+        <li>だし巻き卵</li>
+        <li>苺大福</li>
+    </ul>
+    <h2>今年の目標</h2>
+    <ol>
+        <li>COACHTECH卒業</li>
+        <li>健康維持</li>
+        <li>新しい趣味を見つける</li>
+    </ol>
+    <h2>リンク</h2>
+    <a href="https://github.com/dashboard" target="_blank">竹畑妃奈乃のGitHub</a>
+    <h2>好きな風景</h2>
+    <img src="landspace.jpg" alt="好きな風景の写真" width="400">
+    <h2>お問い合わせ</h2>
+    <form action="submit_form.php" method="post">
+        <input type="text" id="name" name="name" placeholder="お名前" required><br><br>
+        <select id="inquiry_type" name="inquiry_type" required>
+            <option value="">お問い合わせ内容を選択してください</option>
+            <option value="一般的なお問い合わせ">一般的なお問い合わせ</option>
+            <option value="ご意見・ご要望">ご意見・ご要望</option>
+        </select><br><br>
+        <textarea id="message" name="message" placeholder="お問い合わせ内容" rows="4" cols="50" required></textarea><br><br>
+        <button type="submit" value="送信">送信</button>
+</body>
+</html>
